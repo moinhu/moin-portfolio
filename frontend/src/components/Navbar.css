@@ -1,0 +1,60 @@
+/* NAVBAR CONTAINER */
+.nav {
+  background-color: #0d0f1a;
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;  /* Stack logo and links vertically */
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* CENTERED LOGO TEXT */
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff00d4;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* LINKS STYLING */
+.nav-links {
+  display: flex;
+  gap: 65px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* INDIVIDUAL LINK STYLING */
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  color: #ff00d4;
+  text-shadow: 0 0 8px #ff00d4;
+}
+
+/* RESPONSIVE STYLING FOR SMALLER SCREENS */
+@media (max-width: 768px) {
+  .nav {
+    padding: 15px 20px;
+  }
+
+  .logo {
+    font-size: 1.6rem;
+  }
+
+  .nav-links {
+    gap: 15px;
+    flex-direction: column;
+  }
+}

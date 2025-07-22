@@ -1,0 +1,79 @@
+.contact {
+  background: linear-gradient(to bottom, #0d0f1a, #05060e);
+  padding: 120px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-title {
+  font-size: 2.8rem;
+  color: #00ffff;
+  margin-bottom: 50px;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.contact-card {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.3), 0 0 15px rgba(255, 0, 212, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  border: none;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+  box-shadow: inset 0 0 10px rgba(0, 255, 255, 0.3);
+  transition: 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  box-shadow: 0 0 12px #00ffff, inset 0 0 10px #ff00d4;
+}
+
+.rating-label {
+  text-align: left;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.contact-form input[type="range"] {
+  accent-color: #00ffff;
+  height: 4px;
+  background: #222;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 12px;
+  background: linear-gradient(135deg, #00ffff, #ff00d4);
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.4s ease;
+  box-shadow: 0 0 15px #00ffff;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(135deg, #ff00d4, #00ffff);
+  color: #fff;
+  box-shadow: 0 0 20px #ff00d4;
+}
